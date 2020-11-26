@@ -1,0 +1,64 @@
+/* Colors and fonts */
+body {
+	background: rgb(120,100,100);
+	color: rgb(200,200,200);
+	font-family: Arial;
+	font-size: 15px;
+	border: 2px solid red;
+	border-radius: 20px;
+	text-align: center;
+	
+
+
+}
+h1, h2, h3 {
+	color: rgb(180,100,100);
+	padding: 30px;
+
+}
+
+h2, h3 {
+	height: 5px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+img {
+	 margin: 80px;
+	 border-radius: 10px;
+
+}
+
+div {
+	border-top: 1px solid red;
+	border-right: 2px solid red;
+	border-bottom: 1px solid red;
+	border-left: 2px solid red;
+	border-radius: 10px;
+	box-shadow: 3px 3px 3px grey;
+	/* Absolute */
+	p {
+		width: 50px;
+	}
+	/* Relative to parent */
+	p {
+		width: 50%;
+	}
+	/* Relative to font size */
+	p {
+		width: 2em;
+	}
+}
+
+div {
+	background: rgb(60,50,50);
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0 15px 35px rgba(50,50,50.1);
+	width: 300px;
+	margin: 0 auto;
+
+}
+
